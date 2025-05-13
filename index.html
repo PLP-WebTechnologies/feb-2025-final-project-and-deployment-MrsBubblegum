@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InsightBlog - Home</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/slider.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Insight<span>Blog</span></h1>
+      <nav>
+        <button class="menu-toggle" aria-label="Toggle menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="slider-container">
+          <div class="slide active">
+            <div class="slide-content">
+              <h2>Welcome to InsightBlog</h2>
+              <p>Exploring ideas that matter in technology, culture, and beyond.</p>
+              <a href="#featured" class="btn">Read More</a>
+            </div>
+            <div class="slide-image">
+              <img src="images/blog-post-2.jpg" alt="Blog image 1">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <h2>Latest Technology Trends</h2>
+              <p>Discover what's shaping our digital future.</p>
+              <a href="#featured" class="btn">Explore</a>
+            </div>
+            <div class="slide-image">
+              <img src="images/blog-post-1.png" alt="Blog image 2">
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-content">
+              <h2>Creative Insights</h2>
+              <p>Fresh perspectives on design and innovation.</p>
+              <a href="#featured" class="btn">Discover</a>
+            </div>
+            <div class="slide-image">
+              <img src="images/blog-post-3.jpg" alt="Blog image 3">
+            </div>
+          </div>
+          <button class="slider-btn prev" aria-label="Previous slide">❮</button>
+          <button class="slider-btn next" aria-label="Next slide">❯</button>
+          <div class="slider-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="featured" class="featured-posts">
+      <div class="container">
+        <h2 class="section-title">Featured Posts</h2>
+        <div class="posts-grid">
+          <article class="post-card">
+            <div class="post-image">
+              <img src="images/blog-post-4.jpg" alt="Blog image 4">
+            </div>
+            <div class="post-content">
+              <span class="post-category">Technology</span>
+              <h3 class="post-title">The Future of AI in Everyday Applications</h3>
+              <p class="post-excerpt">The Future of AI: How Artificial Intelligence Will Change the World.</p>
+              <div class="post-meta">
+                <span class="post-date">Jan 28, 2025</span>
+                <span class="post-read-time">8 min read</span>
+              </div>
+              <a href="https://builtin.com/artificial-intelligence/artificial-intelligence-future" class="read-more" target="_blank">Read Article</a>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-image">
+              <img src="images/blog-post-5.jpg" alt="Blog image 5">
+            </div>
+            <div class="post-content">
+              <span class="post-category">Design</span>
+              <h3 class="post-title">Minimalism in Modern Web Design</h3>
+              <p class="post-excerpt">The Rise of Minimalist Web Design. Why Less Is More.</p>
+              <div class="post-meta">
+                <span class="post-date">April 30, 2025</span>
+                <span class="post-read-time">11 min read</span>
+              </div>
+              <a href="https://brimaronlinemarketing.com/blog/the-rise-of-minimalist-web-design-why-less-is-more/" class="read-more" target="_blank">Read Article</a>
+            </div>
+          </article>
+          <article class="post-card">
+            <div class="post-image">
+              <img src="images/blog-post-6.jpg" alt="Blog image 6" width="340px">
+            </div>
+            <div class="post-content">
+              <span class="post-category">Culture</span>
+              <h3 class="post-title">How Remote Work is Reshaping Cities</h3>
+              <p class="post-excerpt">The Urbanization of Remote Work: Shaping Cities</p>
+              <div class="post-meta">
+                <span class="post-date">Oct 26, 2024</span>
+                <span class="post-read-time">3 min read</span>
+              </div>
+              <a href="#" class="read-more">
+                <a href="https://medium.com/@nawazasma3032/the-urbanization-of-remote-work-shaping-cities-c31b9f391687" target="_blank">Read Article</a></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter">
+      <div class="container">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest posts delivered straight to your inbox.</p>
+        <form id="newsletter-form" class="newsletter-form">
+          <input type="email" id="email" placeholder="Your email address" required>
+          <button type="submit" class="btn">Subscribe</button>
+        </form>
+        <p id="newsletter-message" class="form-message"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Insight<span>Blog</span></h2>
+          <p>Exploring ideas that matter.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="#" aria-label="Twitter"><i class="social-icon twitter"></i></a>
+            <a href="#" aria-label="Facebook"><i class="social-icon facebook"></i></a>
+            <a href="#" aria-label="Instagram"><i class="social-icon instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="social-icon linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 InsightBlog. All rights reserved.</p>
+      </div>
+      <div class="footer-bottom">
+        <footer>Coded by <a href="https://www.linkedin.com/in/cherozade-bhayat-a1b460240" target="_blank">Cherozade B.</a>
+        </footer>
+      </div>
+      
+    </div>
+  </footer>
+</body>
+
+</html>
